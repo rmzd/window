@@ -583,21 +583,6 @@ a {
     }
 }
 
-.profile-content:before{
-    content: "Rehau";
-    writing-mode: vertical-lr;
-    color: #ffe4c3;
-    font-weight: 900;
-    font-size: 19px;
-    letter-spacing: 3px;
-    text-align: center;
-    position: absolute;
-    width: 20px;
-    background: #dc780b;
-    height: 370px;
-    margin-left: -25px;
-}
-
 .kbe{
     background: #0bdc27;
 }
