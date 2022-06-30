@@ -507,7 +507,6 @@ a {
     width: 16px;
     height: 100%;
     background: #ff4141;
-    -webkit-transform: skewX(-20deg);
     transform: skewX(-20deg);
     z-index: 1;
 }
@@ -583,7 +582,7 @@ a {
         font-size: 18px;
     }
 }
-.profile-content
+
 .profile-content:before{
     content: "Rehau";
     writing-mode: vertical-lr;
@@ -628,7 +627,6 @@ a {
     min-height: 171px;
 }
 .profile-point-text h5 {
-    font-family: HCBold;
     color: #ffe4c3;
     margin: 0 0 5px 0;
     font-size: 18px;
@@ -762,18 +760,7 @@ a {
 .btn-hidden2.active{
     background: #c7250e;
 }
-@media (max-width: 1000px) {
-    .btn-hidden2 {
-        max-width: 555px;
-        margin-left: 20%;
-    }
-}
-@media (max-width: 700px) {
-    .btn-hidden2 {
-        max-width: 555px;
-        margin-left: 0;
-    }
-}
+
 
 .btn-description{
     background: linear-gradient(to left, #421e00, #fa0000, #ff6900);
@@ -833,7 +820,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    display: flex;
     flex-wrap: wrap;
     gap:20px
 }
@@ -856,10 +842,6 @@ a {
 /*footer*/
 
 
-
-@media (max-width: 560px) {
-
-}
 
 
 
@@ -954,20 +936,17 @@ a {
     border: 1px solid #b8bbc6;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: .5px;
     transition: border-color .3s ease-in-out;
 }
 .form-input__title {
     background-color: #fff;
     left: 1px;
     top: 50%;
-    -webkit-transform: translateY(calc(-50% + 2px));
-    transform: translateY(calc(-50% + 2px));
     position: absolute;
     padding: 0 24px;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.5px;
+
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
